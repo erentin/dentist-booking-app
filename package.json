@@ -1,0 +1,18 @@
+{
+  "name": "dentist-booking-app",
+  "version": "1.0.0",
+  "main": "postcss.config.js",
+  "scripts": {
+    "dev": "encore dev",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run build:css && npm run build:js",
+    "build:css": "tailwindcss build assets/styles/app.css -o public/build/app.css",
+    "watch:css": "tailwindcss build assets/styles/app.css -o public/build/app.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "flowbite": "^2.5.1"
+  }
+}
